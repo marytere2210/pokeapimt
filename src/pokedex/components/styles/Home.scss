@@ -1,0 +1,80 @@
+
+.home{
+ background-image: url('../public/pokedex (2).png');
+ background-size: cover;
+  display: grid;
+  place-content: center;
+  min-height: 100dvh;
+  text-align: center;  
+  font-family: var(--font-family);
+  
+  &-title {
+    max-width: 65%;
+    margin: 0 auto;
+}
+  
+  &-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.925);
+  }
+  
+  &-title-img {
+    flex: 1;
+    max-width: 300px; 
+    margin-right: 20px; 
+    margin-top: 10%;
+    
+}
+  
+  &-right-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10%; 
+    align-items: center;
+  }
+ 
+   &.home-input, .home-button {
+    margin-bottom: 5px;
+    margin-top: 10%;
+    font-size: 16px;
+  }
+  &-subtitle, .home-name-text{
+    font-size: 20px;
+  
+  }
+  
+  &-input  {
+    font-family:  var(--font-family);
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: calc(50% - 54px);
+    max-width: 400px;
+  }
+  
+  button {
+    font-family:  var(--font-family);
+    background-color: #f32121;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      background-color: #ffffff;
+      color:black;
+      border: 2px solid #f32121;
+    }
+  }
+}

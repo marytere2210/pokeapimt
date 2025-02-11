@@ -1,0 +1,1 @@
+cuando se le da al botón buscar, este se ejecuta y muestra doble la información, hay que establecer que si ya esta que no la muestre doble. y quitar la letra en movimiento para que no se mueva la imagen, establecer l tipo de letra como constante , arreglar lo del estado de conentado o desconectado. 

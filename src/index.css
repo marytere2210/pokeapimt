@@ -1,0 +1,22 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*,*::after,*::after{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  }
+
+img{
+  max-width: 100%;
+  height: auto;
+}
