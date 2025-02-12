@@ -18,7 +18,7 @@ function Home() {
    }
   return (
     <div className='home'>
-    <div className='home-title'><img src="./public/pokedex.svg" alt="logo" /></div>
+    <div className='home-title'><img src="./pokedex.svg" alt="logo" /></div>
     <div className='home-content'>
       <img className='home-title-img' src="./public/Profesor_Oak_LGPE.png" alt="Profesor" />
       <div className='home-right-content'>
