@@ -20,7 +20,7 @@ function Home() {
     <div className='home'>
     <div className='home-title'><img src="../pokedex.svg" alt="logo" /></div>
     <div className='home-content'>
-      <img className='home-title-img' src="../public/Profesor_Oak_LGPE.png" alt="Profesor" />
+      <img className='home-title-img' src="../Profesor_Oak_LGPE.png" alt="Profesor" />
       <div className='home-right-content'>
         <h2 className='home-subtitle'>¡Hola Entrenador!</h2>
         <p className='home-name-text'>Para poder comenzar ingresa tu nombre</p>
