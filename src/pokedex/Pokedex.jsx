@@ -94,7 +94,7 @@ function Pokedex () {
 
   return (
     <div className='pokedex'>
-      <div className='pokedex-title'><img className='pokedex-title-img' src="../../../pokedex.svg" alt="logo" onClick={getInitialPokemon} /></div>
+      <div className='pokedex-title'><img className='pokedex-title-img' src="../pokedex.svg" alt="logo" onClick={getInitialPokemon} /></div>
       {name &&
         <div className='pokedex-content'>
           <p className='pokedex-content-welcome'> ¡Bienvenido Entrenador {name}! </p>
